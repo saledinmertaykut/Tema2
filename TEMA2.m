@@ -31,7 +31,7 @@ xlabel('Timpul [s]');
 ylabel('Amplitudine');
 title('Semnalul initial este cel cu linia solida (s=f(t)), iar semnalul reconstruit este cu linia punctata (sr)');
 hold off
-figure(2); %In aceasta figura vom reprezenta spectrul de amplitudini, spectrul fiin unul discret vom folosi functia stem
+figure(2); %In aceasta figura vom reprezenta spectrul de amplitudini, spectrul fiind unul discret vom folosi functia stem
 hold on
 stem((-N:N)*w,2*abs(C)); %Folosim abs, deoarece sprectrul de amplitudini,pe langa ca este discret, are intotdeauna valori pozitive pe axa y
 xlabel('Pulsatia sau viteza unghiulara w');
